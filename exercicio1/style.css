@@ -8,6 +8,12 @@
   width: 100vw;
   background-color: lightgray;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 30px ;
+  padding: 30;
+
 }
 
 .item {
@@ -15,4 +21,7 @@
   background-color: white;
   height: 180px;
   width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
